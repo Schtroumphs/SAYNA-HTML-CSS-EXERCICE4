@@ -1,0 +1,928 @@
+@font-face {
+    font-family: 'spiderman';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    background-color: #B11313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+}
+nav .logo
+{
+    display: flex;
+    align-items: center;
+}
+nav .logo img
+{
+    margin-right: 20px;
+}
+nav .onglets a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+/* Fin du css de navbar! */
+.box
+{
+    background-image: url(assets/Illustration/img1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding: 180px 100px;
+    color: #FFFFFF;
+}
+.box .button-1 a
+{
+    text-decoration: none;
+    color: #B11313;
+}
+.box .button-2 a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+::placeholder
+{
+    color: #FFFFFF;
+}
+.cadre ::placeholder
+{
+    color: #000000;
+}
+h1
+{
+    font-size: 100px;
+    font-family: 'spiderman';
+    font-weight: lighter;
+}
+h3
+{
+    font-size: 20px;
+}
+.box .content-button
+{
+    display: flex;
+}
+.box .button-1 button
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 50px;
+}
+.box .button-2 button
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    background-color: transparent;
+}
+.box-1
+{
+    background-color: #B11313;
+    color: #FFFFFF;
+    padding-top: 1px;
+    padding-bottom: 50PX;
+    padding: 5px 100px 50px;
+}
+.box-1 h1
+{
+    font-size: 31px;
+}
+.box-1 .flex-one
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.box-1 .mini-box
+{
+    width: 306px;
+    margin-right: 70px;
+}
+.box-1 .flex-one a
+{
+    text-decoration: none;
+    color: #B11313;
+}
+.box-1 .flex-one button
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 70px;
+}
+
+.box-3
+{
+    background-color: #114C92;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-3 h1
+{
+    font-size: 31px;
+    margin-bottom: 0px;
+}
+.box-3 .cadre
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    text-align: center;
+}
+.box-3 .cadre input
+{
+    margin-bottom: 20px;
+    padding-left: 30px;
+    height: 35px;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+.box-3 .cadre button
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    margin-left: 200px;
+}
+.box-4
+{
+    background-color: #B11313;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 120px;
+}
+.box-4 h1
+{
+    font-size: 31px;
+}
+.box-4 a
+{
+    color: #FFFFFF;
+}
+.box-4 input
+{
+    margin-bottom: 20px;
+    padding-left: 30px;
+    width: 350px;
+    height: 35px;
+    border-radius: 30px;
+    font-weight: bolder;
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+.box-4 button
+{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    color: #B11313;
+    border: none;
+    margin-left: 80px;
+}
+footer
+{
+    background-color: #000000;
+    padding: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+footer .flex-fin
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 70px;
+}
+footer .flex-fin a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+footer .flex-fin .image
+{
+    display: flex;
+    align-items: center;
+}
+footer .flex-fin .image img
+{
+    margin: 5px;
+}
+footer .flex-fin .langue
+{
+    background-color: #B11313;
+    color: #FFFFFF;
+    height: 25px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+}
+footer .bulle
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #B11313;
+    cursor: pointer;
+    position: relative;
+    margin-right: 35px;
+    margin-top: 60px;
+}
+.media
+{
+    display: flex;
+    justify-content: center;
+}
+/* Fin css Acceuil */
+/* Debut css Adversaires */
+.nav-2
+{
+    background-color: #F1C530;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+}
+.venom
+{
+    background-image: url(assets/Illustration/img7.png);
+    padding: 115px 100px;
+    color: #FFFFFF;
+}
+.cage-vilains
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.cage-vilains-2
+{
+    display: flex;
+    justify-content: space-around;
+}
+.vilains
+{
+    background-color: #F1C530;
+    padding: 50px;
+}
+.dernier
+{
+    margin-right: 100px;
+}
+.text
+{
+    padding: 20px 20px 0px;
+    width: 274px;
+    height: 300px;
+    border: solid #000000 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: -10px;
+}
+span
+{
+    font-weight: bold;
+}
+p
+{
+    font-weight: lighter;
+}
+
+footer .flex-fin .langue-2
+{
+    background-color: #F1C530;
+    color: #FFFFFF;
+    height: 25px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+}
+footer .bulle-2
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #F1C530;
+    cursor: pointer;
+    position: relative;
+    margin-right: 35px;
+    margin-top: 60px;
+}
+/* Fin css Adversaires */
+/* Debut css heros */
+.nav-3
+{
+    background-color: #114C92;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+}
+.hero
+{
+    background-image: url(assets/Illustration/img19.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding: 100px 100px;
+    color: #FFFFFF;
+}
+.valeurs
+{
+    width: 450px;
+    color: #FFFFFF;
+}
+.valeurs h1
+{
+    font-size: 31px;
+}
+.heros
+{
+    background-color: #114C92;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+}
+.solide
+{
+    background-image: url(Assets/Illustration/img20.png);
+    color: #FFFFFF;
+    padding: 150px 200px;
+}
+.solide h1
+{
+    font-size: 31px;
+    
+}
+.unique
+{
+    background-color: #114C92;
+    color: #FFFFFF;
+    padding: 50px 100px;
+}
+.unique h1
+{
+    font-size: 31px;
+}
+.only
+{
+    display: flex;
+    justify-content: space-between;
+}
+.only .only-content
+{
+    width: 550px;
+}
+.entourage
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.amis
+{
+    width: 450px;
+}
+.gwen
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.marry
+{
+    width: 550px;
+}
+.jeanne
+{
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.jeanne img
+{
+    margin-right: 30px;
+
+}
+.brut
+{
+    display: flex;
+}
+.toute
+{
+    background-color: #B11313;
+    width: 50%;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.toute h1
+{
+    font-size: 31px;
+}
+.homme
+{
+    display: flex;
+}
+.homme img
+{
+    width: 226px;
+    height: 200px;
+}
+
+
+
+
+.hyper
+{
+    background-image: url(assets/Illustration/img33.png);
+    color: #FFFFFF;
+    margin-top: -4px;
+}
+.hyper h1
+{
+    font-size: 31px;
+}
+.blue
+{
+    width: 450px;
+    padding: 50px 20px;
+    background-color: #114C92;
+    opacity: 65%;
+    margin-left: 700px;
+}
+footer .flex-fin .langue-3
+{
+    background-color: #114C92;
+    color: #FFFFFF;
+    height: 25px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+}
+footer .bulle-3
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #114C92;
+    cursor: pointer;
+    position: relative;
+    margin-right: 35px;
+    margin-top: 60px;
+}
+/* Fin css Heros */
+/* Debut css A propos */
+.nav-rest
+{
+    background-color: #B11313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+}
+.nav-rest .logo-rest
+{
+    display: flex;
+    align-items: center;
+}
+.nav-rest .logo-rest img
+{
+    margin-right: 20px;
+}
+.nav-rest .onglets-rest a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+.debut
+{
+    background-color: #F1C530;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    color: #FFFFFF;
+}
+.interieur
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.antenne
+{
+    background-color: #B11313;
+    color: #FFFFFF;
+    padding: 50px 200px;
+}
+.antenne h1
+{
+    font-size: 31px;
+}
+.antenne img
+{
+    width: 400px;
+}
+.antenne .deposit
+{
+    display: flex;
+    flex-direction: column;
+}
+.antenne .deposit input
+{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.antenne .deposit textarea
+{
+    height: 150px;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.antenne .deposit button
+{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+.marvel
+{
+    background-color: #114C92;
+    color: #FFFFFF;
+    padding: 50px 150px;
+}
+.marvel h1
+{
+    font-size: 31px;
+}
+.marvel .btn
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.marvel .btn button
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.sayna
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sayna .colunne
+{
+    width: 500px;
+}
+/* Bonus */
+.bonus
+{
+    background-image: url(assets/Illustration/img35.png);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    padding: 300px 0px 20px 100px;
+}
+.bonus h1
+{
+    margin-top: 235px;
+}
+.bonus h3
+{
+    margin-top: -75px;
+}
+@media screen and (max-width: 680px)
+{
+    /* responsive due page web Home */
+    
+    nav
+    {
+        background-color: transparent;
+        padding: 0%;
+    }
+    nav .logo
+    {
+        position: absolute;
+        margin: 100px 0px 0px 50px;
+    }
+    nav .onglets
+    {
+        display: none;
+    }
+    .box
+    {
+        background-size: 700px;
+        background-repeat: no-repeat;
+        background-position-x: left;
+        margin-top: -135px;
+    }
+    .box h1
+    {
+        margin-top: 120px;
+        margin-left: -50px;
+    }
+    .box h3
+    {
+        position: absolute;
+        margin-top: -100px;
+        margin-left: -50px;
+    }
+    .content-button
+    {
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+    .box-1
+    {
+        margin-top: -110px;
+        text-align: center;
+    }
+    .flex-one
+    {
+        display: flex;
+
+    }
+    .flex-one button
+    {
+        margin-right: 70px;
+    }
+    .mini-box
+    {
+        margin-bottom: 50px;
+        margin-left: 70px;
+    }
+    .box-3 .cadre
+    {
+        position: absolute;
+        margin-left: 130px
+    }
+    .box-3 .cadre button
+    {
+        margin-left: 90px;
+    }
+    .box-4 img
+    {
+        width: 250px;
+        margin-left: 250px;
+        margin-top: 150px;
+    }
+    .box-4 .news
+    {
+        position: absolute;
+        margin-left: -100px;
+    }
+    .langue
+    {
+        position: absolute;
+        margin-left: 450px;
+        margin-top: -100px;
+    }
+    .image
+    {
+        position: absolute;
+        margin-top: 200px;
+    }
+    /* Fin responsive due page web Home */
+    /* responsive due page web Adversaires */
+    .venom
+    {
+        background-size: 700px;
+        background-repeat: no-repeat;
+        padding: 90px 0px 140px 70px;
+    }
+    .nav-2
+    {
+        background-color: transparent;
+        padding: 0%;
+    }
+    .nav-2 .logo
+    {
+        position: absolute;
+        margin: 100px 0px 0px 70px;
+    }
+    .nav-2 .onglets
+    {
+        display: none;
+    }
+     h1
+    {
+        font-size: 31px;
+    }
+     h3
+    {
+        font-size: 20px;
+    }
+    .vilains
+    {
+        margin-top: -70px;
+    }
+    .cage-vilains
+    {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+    .cage-vilains-2
+    {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+    .resp
+    {
+        margin-bottom: 50px;
+    }
+    .resp img
+    {
+        width: 550px;
+    }
+    .text
+    {
+        width: 500px;
+        height: 600px;
+
+    }
+    .flex-fin
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-fin a
+    {
+        position: relative;
+        margin-right: 400px;
+        width: 200px;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    .langue-2
+    {
+        position: absolute;
+        margin-left: 450px;
+        margin-top: -100px;
+    }
+    .media
+    {
+        margin-top: 50px;
+    }
+    /* Fin responsive Adversaires */
+    /* debut responsive heros */
+    .nav-3
+    {
+        background-color: transparent;
+    }
+    .nav-3 .logo
+    {
+        margin-left: -50px;
+    }
+    .hero
+    {
+        margin-top: -30px;
+    }
+    .heros
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .solide
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: center;
+    }
+    .only
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .entourage
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .entourage img
+    {
+        margin-left: -150px;
+    }
+    .amis
+    {
+        margin-top: 100px;
+    }
+    .gwen
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .gwen img
+    {
+        width: 150px;
+    }
+    .brut
+    {
+        display: none;
+    }
+    .hyper
+    {
+        display: none;
+    }
+    .langue-3
+    {
+        position: absolute;
+        margin-left: 450px;
+        margin-top: -100px;
+    }
+    /* Fin responsive */
+    /* debut responsive A propos */
+    .nav-rest a
+    {
+        display: none;
+    }
+    .debut img
+    {
+        position: absolute;
+        width: 400px;
+        margin-left: -400px;
+        margin-top: -240px;
+    }
+    .debut .toile
+    {
+        padding-bottom: 300px;
+        margin-left: -20px;
+    }
+    .interieur
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .sayna
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+    /* Bonus */
+    .bonus
+    {
+        background-position-x: -400px;
+    }
+    .bonus h3
+    {
+        display: none;
+    }
+    .bonus h1
+    {
+        font-size: 31px;
+        margin-left: -50px;
+    }
+}
